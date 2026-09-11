@@ -1,0 +1,147 @@
+0 FILE 3070bpz3.dat
+0 Tile  1 x  1 with White Star / Sparkle Pattern
+0 Name: 3070bpz3.dat
+0 Author: Peter Grass [Evilspyre]
+0 !LDRAW_ORG Part UPDATE 2026-03
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !KEYWORDS BrickLink 3070pb388, Brickowl 606613, Brickset 114909, Paris
+0 !KEYWORDS Rebrickable 3070bpr9884, Set 21064, Star
+
+0 !HISTORY 2026-03-31 [OrionP] Official Update 2026-03
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 s/3070bs01.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 s/3070bpz3s01.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s/3070bpz3s01.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 -1 s/3070bpz3s01.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 s/3070bpz3s01.dat
+0 FILE s/3070bs01.dat
+0 ~Tile  1 x  1 with Groove without Top Face
+0 Name: s\3070bs01.dat
+0 Author: Chris Dee [cwdee]
+0 !LDRAW_ORG Subpart UPDATE 2009-02
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2009-09-03 [PTadmin] Official Update 2009-02
+
+
+1 16 0 0 0 10 0 0 0 7 0 0 0 10 box4.dat
+0 BFC INVERTNEXT
+1 16 0 8 0 6 0 0 0 -4 0 0 0 6 box5.dat
+1 16 0 7 0 9 0 0 0 1 0 0 0 9 box4.dat
+
+4 16 9 8 9 6 8 6 -6 8 6 -9 8 9
+4 16 -9 8 9 -6 8 6 -6 8 -6 -9 8 -9
+4 16 -9 8 -9 -6 8 -6 6 8 -6 9 8 -9
+4 16 9 8 -9 6 8 -6 6 8 6 9 8 9
+
+4 16 10 7 10 9 7 9 -9 7 9 -10 7 10
+4 16 -10 7 10 -9 7 9 -9 7 -9 -10 7 -10
+4 16 -10 7 -10 -9 7 -9 9 7 -9 10 7 -10
+4 16 10 7 -10 9 7 -9 9 7 9 10 7 10
+0
+
+0 FILE box4.dat
+0 Box with 4 Faces (2 Parallel Pairs) and All Edges
+0 Name: box4.dat
+0 Author: James Jessiman
+0 !LDRAW_ORG Primitive UPDATE 2012-01
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2002-04-03 [sbliss] Modified for BFC compliance
+0 !HISTORY 2002-04-25 [PTadmin] Official Update 2002-02
+0 !HISTORY 2007-06-24 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+0 !HISTORY 2012-02-16 [Philo] Changed to CCW
+0 !HISTORY 2012-03-30 [PTadmin] Official Update 2012-01
+
+
+2 24 1 1 1 -1 1 1
+2 24 -1 1 1 -1 1 -1
+2 24 -1 1 -1 1 1 -1
+2 24 1 1 -1 1 1 1
+2 24 1 0 1 -1 0 1
+2 24 -1 0 1 -1 0 -1
+2 24 -1 0 -1 1 0 -1
+2 24 1 0 -1 1 0 1
+2 24 1 0 1 1 1 1
+2 24 -1 0 1 -1 1 1
+2 24 1 0 -1 1 1 -1
+2 24 -1 0 -1 -1 1 -1
+4 16 -1 1 1 -1 0 1 1 0 1 1 1 1
+4 16 -1 1 -1 -1 0 -1 -1 0 1 -1 1 1
+4 16 1 1 -1 1 0 -1 -1 0 -1 -1 1 -1
+4 16 1 1 1 1 0 1 1 0 -1 1 1 -1
+
+0 FILE box5.dat
+0 Box with 5 Faces and All Edges
+0 Name: box5.dat
+0 Author: James Jessiman
+0 !LDRAW_ORG Primitive UPDATE 2012-01
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2002-04-03 [sbliss] Modified for BFC compliance
+0 !HISTORY 2002-04-25 [PTadmin] Official Update 2002-02
+0 !HISTORY 2007-06-24 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+0 !HISTORY 2012-02-16 [Philo] Changed to CCW
+0 !HISTORY 2012-03-30 [PTadmin] Official Update 2012-01
+
+
+2 24 1 1 1 -1 1 1
+2 24 -1 1 1 -1 1 -1
+2 24 -1 1 -1 1 1 -1
+2 24 1 1 -1 1 1 1
+2 24 1 0 1 -1 0 1
+2 24 -1 0 1 -1 0 -1
+2 24 -1 0 -1 1 0 -1
+2 24 1 0 -1 1 0 1
+2 24 1 0 1 1 1 1
+2 24 -1 0 1 -1 1 1
+2 24 1 0 -1 1 1 -1
+2 24 -1 0 -1 -1 1 -1
+4 16 -1 1 1 1 1 1 1 1 -1 -1 1 -1
+4 16 -1 1 1 -1 0 1 1 0 1 1 1 1
+4 16 -1 1 -1 -1 0 -1 -1 0 1 -1 1 1
+4 16 1 1 -1 1 0 -1 -1 0 -1 -1 1 -1
+4 16 1 1 1 1 0 1 1 0 -1 1 1 -1
+
+0 FILE s/3070bpz3s01.dat
+0 ~Tile  1 x  1 with White Star / Sparkle Pattern Quarter
+0 Name: s\3070bpz3s01.dat
+0 Author: Peter Grass [Evilspyre]
+0 !LDRAW_ORG Subpart UPDATE 2026-03
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2026-03-31 [OrionP] Official Update 2026-03
+
+3 16 -5.937 0 .195 -10 0 0 -5.977 0 0
+3 16 -.195 0 5.937 0 0 5.977 0 0 10
+4 16 -5.703 0 .391 -.391 0 5.703 0 0 10 -10 0 10
+3 16 -.391 0 5.703 -.195 0 5.937 0 0 10
+4 16 -2.109 0 1.406 -1.602 0 1.875 -1.133 0 2.5 -2.578 0 1.094
+4 16 -1.133 0 2.5 -.586 0 3.945 -3.047 0 .859 -2.578 0 1.094
+4 16 -3.047 0 .859 -.586 0 3.945 -3.945 0 .586 -3.477 0 .703
+4 16 -.586 0 3.945 -.391 0 5.703 -5.703 0 .391 -3.945 0 .586
+4 16 -5.937 0 .195 -5.703 0 .391 -10 0 10 -10 0 0
+3 15 0 0 0 -.586 0 3.945 -1.133 0 2.5
+4 15 0 0 5.977 -.195 0 5.937 -.391 0 5.703 -.586 0 3.945
+3 15 0 0 0 -1.133 0 2.5 -1.602 0 1.875
+3 15 -2.109 0 1.406 0 0 0 -1.602 0 1.875
+3 15 -2.578 0 1.094 0 0 0 -2.109 0 1.406
+3 15 -3.477 0 .703 0 0 0 -3.047 0 .859
+3 15 -2.578 0 1.094 -3.047 0 .859 0 0 0
+3 15 -3.477 0 .703 -3.945 0 .586 0 0 0
+3 15 0 0 5.977 -.586 0 3.945 0 0 0
+4 15 -5.703 0 .391 -5.937 0 .195 0 0 0 -3.945 0 .586
+3 15 0 0 0 -5.937 0 .195 -5.977 0 0

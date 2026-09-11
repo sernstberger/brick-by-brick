@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "id": "pinball",
+  "name": "Pinball Table",
+  "steps": [
+    {
+      "title": "Start with the center",
+      "page": 10,
+      "description": "Place the gray 2 × 2 brick in the middle of the red 2 × 12 plate. Leave five columns of studs exposed on either side.",
+      "parts": [
+        {
+          "id": "p1",
+          "part": "2445.dat",
+          "color": 4,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "status": "inferred"
+        },
+        {
+          "id": "p2",
+          "part": "3003.dat",
+          "color": 71,
+          "position": [
+            0,
+            -24,
+            0
+          ],
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "status": "inferred"
+        }
+      ]
+    },
+    {
+      "title": "Build out the frame",
+      "page": 10,
+      "description": "Add a black 2 × 4 brick on each side of the gray brick. Fit the two Technic corners over the end columns, with their free arms pointing outward.",
+      "parts": [
+        {
+          "id": "p3",
+          "part": "3001.dat",
+          "color": 0,
+          "position": [
+            -60,
+            -24,
+            0
+          ],
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "status": "inferred"
+        },
+        {
+          "id": "p4",
+          "part": "3001.dat",
+          "color": 0,
+          "position": [
+            60,
+            -24,
+            0
+          ],
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "status": "inferred"
+        },
+        {
+          "id": "p5",
+          "part": "32555.dat",
+          "color": 0,
+          "position": [
+            -150,
+            -24,
+            30
+          ],
+          "rotation": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            0
+          ],
+          "status": "inferred"
+        },
+        {
+          "id": "p6",
+          "part": "32555.dat",
+          "color": 0,
+          "position": [
+            150,
+            -24,
+            30
+          ],
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "status": "inferred"
+        }
+      ]
+    },
+    {
+      "title": "Lock the center together",
+      "page": 10,
+      "description": "Add the second red 2 × 12 plate across the top. Align it directly above the first plate to join the center bricks and both corners.",
+      "parts": [
+        {
+          "id": "p7",
+          "part": "2445.dat",
+          "color": 4,
+          "position": [
+            0,
+            -32,
+            0
+          ],
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "status": "inferred"
+        }
+      ]
+    },
+    {
+      "title": "Reinforce both corners",
+      "page": 10,
+      "description": "Attach a red curved plate to the top and underside of each corner. All four plates keep their studs pointing up; the lower plates connect into the underside of the black bricks.",
+      "parts": [
+        {
+          "id": "p8",
+          "part": "68568.dat",
+          "color": 4,
+          "position": [
+            -150,
+            -32,
+            30
+          ],
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "status": "inferred"
+        },
+        {
+          "id": "p9",
+          "part": "68568.dat",
+          "color": 4,
+          "position": [
+            150,
+            -32,
+            30
+          ],
+          "rotation": [
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "status": "inferred"
+        },
+        {
+          "id": "p10",
+          "part": "68568.dat",
+          "color": 4,
+          "position": [
+            -150,
+            0,
+            30
+          ],
+          "rotation": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "status": "inferred",
+          "approach": [
+            0,
+            80,
+            0
+          ]
+        },
+        {
+          "id": "p11",
+          "part": "68568.dat",
+          "color": 4,
+          "position": [
+            150,
+            0,
+            30
+          ],
+          "rotation": [
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "status": "inferred",
+          "approach": [
+            0,
+            80,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

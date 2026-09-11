@@ -1,0 +1,4 @@
+import {defineConfig} from 'vite';
+// The complete source library stays local. Only packed parts ship with the app.
+import {cpSync,existsSync} from 'node:fs';
+export default defineConfig({base:'./',publicDir:false,plugins:[{name:'project-assets',handleHotUpdate({file,server}){if(/\/public\/(sets|models)\//.test(file)){server.ws.send({type:'full-reload'});return [];}},configureServer(server){server.middlewares.use(async(req,res,next)=>{if(!/^\/(models|sets)\//.test(req.url??''))return next();const {default: sirv}=await import('sirv');sirv('public',{dev:true})(req,res,()=>{res.statusCode=404;res.end('Asset not found');});});},closeBundle(){for(const dir of ['models','sets'])if(existsSync('public/'+dir))cpSync('public/'+dir,'dist/'+dir,{recursive:true,filter:s=>!s.endsWith('.pdf')});}}],server:{port:5174,strictPort:true,watch:{ignored:['**/public/ldraw/**']}},preview:{port:5174,strictPort:true},build:{chunkSizeWarningLimit:800}});
